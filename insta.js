@@ -23,8 +23,8 @@ casper.wait(2000, function(){
 
 //fills out form with user info and clicks log in
 casper.then(function(){
-	this.sendKeys('input[name=username]', 'mrprogrammer11@yahoo.com');
-	this.sendKeys('input[name=password]', 'Legends!');
+	this.sendKeys('input[name=username]', '');
+	this.sendKeys('input[name=password]', '');
 
 	casper.click(x('//*[@id="react-root"]/section/main/article/div[2]/div[1]/div/form/span/button'));
 
